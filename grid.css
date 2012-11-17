@@ -1,0 +1,59 @@
+[class*="grid"] {
+	float: left;
+	margin: 0 10px;
+}
+
+.grid1 {
+	width: 60px;
+}
+
+.grid2 {
+	width: 140px;
+}
+
+.grid3 {
+	width: 220px;
+}
+
+.grid4 {
+	width: 300px;
+}
+
+.grid5 {
+	width: 380px;
+}
+
+.grid6 {
+	width: 460px;
+}
+
+.grid7 {
+	width: 540px;
+}
+
+.grid8 {
+	width: 620px;
+}
+
+.grid9 {
+	width: 700px;
+}
+
+.grid10 {
+	width: 780px;
+}
+
+.grid11{
+	width: 860px;
+}
+
+.grid12 {
+	width: 940px;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
