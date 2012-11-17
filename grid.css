@@ -1,6 +1,10 @@
 [class*="grid"] {
 	float: left;
-	margin: 0 10px;
+	margin-left: 20px;
+}
+
+[class*="grid"]:first-child {
+   margin-left: 0;
 }
 
 .grid1 {
@@ -50,6 +54,7 @@
 .grid12 {
 	width: 940px;
 }
+
 
 .group:after {
   content: "";
