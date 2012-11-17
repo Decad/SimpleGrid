@@ -4,8 +4,9 @@
 }
 
 [class*="grid"]:first-child {
-   margin-left: 0;
+    margin-left: 0px;
 }
+
 
 .grid1 {
 	width: 60px;
@@ -55,6 +56,9 @@
 	width: 940px;
 }
 
+.group {
+    zoom: 1;
+}
 
 .group:after {
   content: "";
